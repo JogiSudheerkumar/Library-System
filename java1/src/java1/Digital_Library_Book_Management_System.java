@@ -5,8 +5,7 @@ import java.util.*;
 // Main class for the Digital Library Book Management System
 class Digital_Library_Book_Management_System {
 
-    // Inner class representing a Book
-    private static class Book {
+    private static class Book { // Inner class representing a Book
         String bookId, title, author, genre, status;
         
         // Constructor to initialize book details
